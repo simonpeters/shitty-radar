@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.7.2",
+    "compass-mixins": "^0.12.10",
+    "firebase": "^7.5.0",
     "mapbox-gl": "^1.5.1",
+    "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-mapbox-gl": "^4.7.3",

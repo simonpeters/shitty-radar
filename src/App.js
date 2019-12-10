@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import MapPage from "./pages/Map";
-
+import AdminPage from "./pages/Admin";
 
 function App() {
   return (
@@ -16,6 +16,23 @@ function App() {
           <Switch>
             <Route path="/map">
               <MapPage/>
+            </Route>
+
+            <Route path="/admin">
+              <AdminPage/>
+            </Route>
+
+            <Route path="/">
+              <nav>
+                <ul>
+                  <li>
+                    <Link to="/map">map</Link>
+                  </li>
+                  <li>
+                    <Link to="/admin">admin</Link>
+                  </li>
+                </ul>
+              </nav>
             </Route>
           </Switch>
         </Router>
