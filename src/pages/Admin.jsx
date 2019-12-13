@@ -22,9 +22,13 @@ export default class AdminPage extends React.Component {
 
       locations: {
         'onderstroom': [ 51.227707, 4.401118],
+        'detroit': [-25.274399, 133.775131],
         'benidorm': [38.541058, -0.122494],
+        'persia': [-25.274399, 133.775131],
         'tokyo': [35.689487, 139.691711],
         'australia': [-25.274399, 133.775131],
+        'uk': [-25.274399, 133.775131],
+        'atlantis': [-25.274399, 133.775131],
       }
     };
   }
